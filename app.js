@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const apis = [
         { id: 1, name: 'Weather API', description: 'Get weather data in real-time.', price: 200 },
         { id: 2, name: 'Finance API', description: 'Access financial data and market trends.', price: 360 },
-        { id: 3, name: 'Geolocation API', description: 'Get accurate geolocation data.', price: 12 },
+        { id: 3, name: 'Geolocation API', description: 'Get accurate geolocation data.', price: 120 },
         { id: 4, name: 'Sports API', description: 'Stay updated with the latest sports data.', price: 380 },
         { id: 5, name: 'News API', description: 'Get the latest news from around the world.', price: 160 }
     ];
