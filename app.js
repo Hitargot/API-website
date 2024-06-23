@@ -8,13 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartCount = document.getElementById('cart-count');
     const cart = [];
 
-    // Mock data for APIs
+        // Mock data for APIs
     const apis = [
         { id: 1, name: 'Weather API', description: 'Get weather data in real-time.', price: 200 },
         { id: 2, name: 'Finance API', description: 'Access financial data and market trends.', price: 360 },
-        { id: 3, name: 'Geolocation API', description: 'Get accurate geolocation data.', price: 120 },
+        { id: 3, name: 'Geolocation API', description: 'Get accurate geolocation data.', price: 12 },
         { id: 4, name: 'Sports API', description: 'Stay updated with the latest sports data.', price: 380 },
-        { id: 5, name: 'News API', description: 'Get the latest news from around the world.', price: 160 }
+        { id: 5, name: 'News API', description: 'Get the latest news from around the world.', price: 160 },
+        { id: 6, name: 'Activation key API', description: 'Activate your product with this key.', price: 305 },
+        { id: 7, name: 'Telegram bot API', description: 'Enable Telegram bots with this API.', price: 225 }
     ];
 
     // Function to render the list of APIs
